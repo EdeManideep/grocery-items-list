@@ -87,7 +87,7 @@ function App() {
         <h3>Grocery items list</h3>
         <div className='form-control'>
           <input
-            type='text'
+            type='password'
             className='grocery'
             placeholder='Enter the Item Name'
             value={name}
