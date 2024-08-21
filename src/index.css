@@ -40,6 +40,13 @@ body {
   background-attachment: fixed; /* Keep the background fixed when scrolling */
 }
 
+/* Media query for screens less than 800px */
+@media screen and (max-width: 799px) {
+  body {
+    background-image: url('../public/bg-2_mobile_screen.jpeg');
+  }
+}
+
 h1, h2, h3, h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
